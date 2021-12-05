@@ -73,7 +73,7 @@ tarantinoMovies.forEach((item) => {
 /*REMOVE element
  * step 1 === store the element to be removed in a variable
  * step 2 === store the parent of that element in a variable
- * Remove the element from its containing element
+ * step 3 === remove the element from its containing element
  */
 let startFilmList = movieSection.getElementsByTagName("ul")[0];
 let lastLi = startFilmList.lastChild;
